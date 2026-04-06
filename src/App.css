@@ -112,6 +112,11 @@ html {
 .origin-bottom { transform-origin: bottom; }
 .cursor-default { cursor: default; }
 .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+.navbar {
+  background-color: rgba(5, 5, 8, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
 
 /* Colors mapping */
 .text-primary { color: var(--text-primary); }

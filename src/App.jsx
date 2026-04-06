@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="app-container overflow-hidden">
       {/* Navbar Minimal */}
-      <nav className="fixed top-0 left-0 right-0 z-50 glass-panel border-x-0 border-t-0 rounded-none bg-[rgba(5,5,8,0.8)] px-6 py-4 flex justify-between items-center transition-all">
+      <nav className="fixed top-0 left-0 right-0 z-50 glass-panel navbar border-x-0 border-t-0 rounded-none px-6 py-4 flex justify-between items-center transition-all">
         <div className="font-heading font-bold text-xl tracking-tight">
           J<span className="text-accent">othi</span>
         </div>
