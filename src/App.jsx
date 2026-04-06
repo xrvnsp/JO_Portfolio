@@ -37,7 +37,10 @@ function App() {
   return (
     <div className="app-container overflow-hidden">
       {/* Navbar Minimal */}
-      <nav className="fixed top-0 left-0 right-0 z-50 glass-panel navbar border-x-0 border-t-0 rounded-none px-6 py-4 flex justify-between items-center transition-all">
+      <nav 
+        className="fixed top-0 left-0 right-0 z-50 glass-panel navbar border-x-0 border-t-0 rounded-none px-6 py-4 flex justify-between items-center"
+        style={{ backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)' }}
+      >
         <div className="font-heading font-bold text-xl tracking-tight">
           J<span className="text-accent">othi</span>
         </div>
