@@ -177,11 +177,26 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
+  :root {
+    --section-padding: 3rem;
+  }
   .section-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 2rem;
   }
   section {
-    padding: 3rem 0;
+    padding: var(--section-padding) 0;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  body {
+    font-size: 14px;
   }
 }
